@@ -1,0 +1,37 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Title of the document</title>
+</head>
+
+<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph.</p>
+  
+  <! --- firebase --->
+  <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyCCrNhMbQUfLxNS1Wap169OumvrAEDTdk0",
+    authDomain: "ayurtech-6b9ea.firebaseapp.com",
+    projectId: "ayurtech-6b9ea",
+    storageBucket: "ayurtech-6b9ea.appspot.com",
+    messagingSenderId: "849789634536",
+    appId: "1:849789634536:web:5587dd4375f88f4f78c65d",
+    measurementId: "G-VTXY2EWG2N"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+</body>
+
+</html>
